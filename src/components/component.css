@@ -11,14 +11,15 @@ header{
     
 }
 .app-container{
-    background-color: rgb(214, 211, 211);
+    background-color: rgb(224, 223, 223);
     height: 150vh;
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 select{
     width: 250px;
@@ -54,9 +55,9 @@ menu{
     
 }
 .dashboard{
-    background-color:aliceblue;
+    background-color:rgb(238, 241, 243);
     height: 140vh;
-    width: 80vw;
+    width: 70vw;
     
 }
 .name{
@@ -75,5 +76,14 @@ menu{
 .search{
     margin-left: 20px;
 }
-
+.notice{
+    display: flex;
+}
+.red{
+    margin-left: -7px;
+    margin-top: -7px;
+}
+.red{
+    
+}
 

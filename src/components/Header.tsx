@@ -4,6 +4,10 @@ import { IoIosMenu } from "react-icons/io";
 import { LuMenu } from "react-icons/lu";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineArrowDropDown } from "react-icons/md";
+import { IoIosNotifications } from "react-icons/io";
+import { GoDotFill } from "react-icons/go";
+
+
 
 
 
@@ -36,7 +40,13 @@ const Header = () => {
             </div>
             
           </menu>
-        
+          <div className="notification">
+            <div className="notice">
+              <span><IoIosNotifications/></span>
+              <span className='red'><GoDotFill size={10} color='red'/></span>
+
+            </div>
+          </div>
         </header>
       </div>
      
