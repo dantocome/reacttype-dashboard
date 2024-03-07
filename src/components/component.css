@@ -39,6 +39,7 @@ span{
 select,option[value="default"]{
     font-size: 11px;
     color: rgb(219, 216, 216);
+    border-radius: 5px;
     
 }
 option[value="default"]{

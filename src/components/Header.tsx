@@ -26,7 +26,7 @@ const Header = () => {
               <div className="name">Logo Hare</div>
           
             <div className="search">
-            <span>< CiSearch size={20} fontWeight={500}/></span>
+            <span>< CiSearch size={20} fontWeight={500} color='darkgrey'/></span>
               
               <select >
                 <option value="default" >Search from Message</option>
