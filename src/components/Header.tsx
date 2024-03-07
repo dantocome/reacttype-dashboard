@@ -19,9 +19,9 @@ const Header = () => {
       <div className="dashboard">
         <header>
           <menu>
-            
+             <div className="first-menu">
               <div className="menu">
-                <LuMenu  size={20}/>
+                <LuMenu  size={20} color='darkgrey'/>
               </div>
               <div className="name">Logo Hare</div>
           
@@ -32,6 +32,7 @@ const Header = () => {
                 <option value="default" >Search from Message</option>
               </select>
              
+            </div>
             </div>
             
           </menu>

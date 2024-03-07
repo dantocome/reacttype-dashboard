@@ -5,6 +5,11 @@
     font-family: 'Rethink Sans', sans-serif;
     text-decoration: none;
 }
+header{
+    background-color: white;
+    height: 45px;
+    
+}
 .app-container{
     background-color: rgb(214, 211, 211);
     height: 150vh;
@@ -44,14 +49,30 @@ option[value="default"]{
 menu{
     display: flex;
     gap: 30px;
+    margin-left: 20px;
+    
 }
 .dashboard{
     background-color:aliceblue;
     height: 140vh;
     width: 80vw;
     
-    
-    
+}
+.name{
+   background: linear-gradient(to right, rgb(255, 192, 227), rgb(193, 21, 193));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 16px;
+   font-weight: 700;
+   
+}
+.first-menu{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+}
+.search{
+    margin-left: 20px;
 }
 
 
