@@ -3,6 +3,7 @@ import "./component.css"
 import { IoIosMenu } from "react-icons/io";
 import { LuMenu } from "react-icons/lu";
 import { CiSearch } from "react-icons/ci";
+import { MdOutlineArrowDropDown } from "react-icons/md";
 
 
 
@@ -18,23 +19,26 @@ const Header = () => {
       <div className="dashboard">
         <header>
           <menu>
-            <nav>
+            
               <div className="menu">
                 <LuMenu  size={20}/>
               </div>
               <div className="name">Logo Hare</div>
-            </nav>
+          
             <div className="search">
+            <span>< CiSearch size={20} fontWeight={500}/></span>
               
-              <span>< CiSearch size={20}/></span>
               <select >
-                <option value="default" >search from Message</option>
+                <option value="default" >Search from Message</option>
               </select>
              
             </div>
+            
           </menu>
+        
         </header>
       </div>
+     
       
     </div>
   )
