@@ -1,8 +1,10 @@
 import React from 'react'
 import "./component.css"
-import { IoIosHome } from "react-icons/io";
-import { MdMedicalServices } from "react-icons/md";
-import { FaTasks } from "react-icons/fa";
+import { IoIosMenu } from "react-icons/io";
+import { LuMenu } from "react-icons/lu";
+import { CiSearch } from "react-icons/ci";
+
+
 
 
 
@@ -13,17 +15,27 @@ const Header = () => {
   
   return (
     <div className='app-container'>
-      <nav>
-        <menu>
-          <ul>
-            <li><span className='icons'>< IoIosHome size={20} color='darkgrey'/></span><span className='names'>Home</span></li>
-            <li><span className='icons'><MdMedicalServices size={20} color='darkgrey'/></span><span className='names'>Services</span></li>
-            <li><span className='icons'>< FaTasks size={20} color='darkgrey'/></span><span className='names'>Tasks</span></li>
-            
-            
-          </ul>
-        </menu>
-      </nav>
+      <div className="dashboard">
+        <header>
+          <menu>
+            <nav>
+              <div className="menu">
+                <LuMenu  size={20}/>
+              </div>
+              <div className="name">Logo Hare</div>
+            </nav>
+            <div className="search">
+              
+              <span>< CiSearch size={20}/></span>
+              <select >
+                <option value="default" >search from Message</option>
+              </select>
+             
+            </div>
+          </menu>
+        </header>
+      </div>
+      
     </div>
   )
 }
