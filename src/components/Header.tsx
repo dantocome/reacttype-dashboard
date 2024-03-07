@@ -4,8 +4,9 @@ import { IoIosMenu } from "react-icons/io";
 import { LuMenu } from "react-icons/lu";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineArrowDropDown } from "react-icons/md";
-import { IoIosNotifications } from "react-icons/io";
+import { IoMdNotificationsOutline } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
+import logmd from "./images/logmd.jpg"
 
 
 
@@ -41,11 +42,15 @@ const Header = () => {
             
           </menu>
           <div className="notification">
+          
             <div className="notice">
-              <span><IoIosNotifications/></span>
+              <span>< IoMdNotificationsOutline color='darkgrey' /></span>
               <span className='red'><GoDotFill size={10} color='red'/></span>
-
             </div>
+            <div className="mdlogo">
+              <img className='md' src={logmd} alt="" />
+            </div>
+            
           </div>
         </header>
       </div>
