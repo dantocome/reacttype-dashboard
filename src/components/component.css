@@ -133,6 +133,7 @@ h6{
 .hoss{
     font-weight: 800;
     text-indent: 10px;
+    font-size: 11px;
 }
 .email{
     font-size: 10px;
@@ -140,5 +141,11 @@ h6{
 }
 .innermd{
     text-align: center;
+}
+.sidebar{
+    background-color: white;
+    width: 250px;
+    height: 132vh;
+    margin-top: 1.5px;
 }
 
