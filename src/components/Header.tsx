@@ -7,6 +7,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
 import logmd from "./images/logmd.jpg"
+import shimul from "./images/shimul.jpg"
 
 
 
@@ -60,6 +61,13 @@ const Header = () => {
         </header>
         <div className="Hero-container">
         <nav className='sidebar'>
+          <div className="mdprofile">
+            <div className="innermd">
+            <img className='shimul' src={shimul}  alt="" />
+            <h6 className='hoss'>Md Shinul Hossain</h6>
+            <p className='email'>mdshinuluiux11@gmail.com</p>
+            </div>
+          </div>
           <ul>
            <li><a href="">Home</a></li>
            <li><a href="">Project</a></li>
