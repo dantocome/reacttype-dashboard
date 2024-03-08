@@ -20,7 +20,8 @@ import logmd from "./images/logmd.jpg"
 const Header = () => {
   
   return (
-    <div className='app-container'>
+    <div className='app-body'>
+      <div className="app-container">
       <div className="dashboard">
         <header>
           <menu>
@@ -57,8 +58,25 @@ const Header = () => {
             
           </div>
         </header>
+        <div className="Hero-container">
+        <nav className='sidebar'>
+          <ul>
+           <li><a href="">Home</a></li>
+           <li><a href="">Project</a></li>
+           <li><a href="">Taks</a></li>
+           <li><a href="">Members</a></li>
+           <li><a href="">Invoice</a></li>
+           <li><a href="">Calender</a></li>
+           <li><a href="">Timesheet</a></li>
+           <li><a href="">Messages</a></li>
+           <li><a href="">Settings</a></li>
+          </ul>
+
+        </nav>
       </div>
-     
+      </div>
+      
+      </div>
       
     </div>
   )

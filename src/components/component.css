@@ -5,6 +5,11 @@
     font-family: 'Rethink Sans', sans-serif;
     text-decoration: none;
 }
+.app-body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 header{
     display: flex;
     background-color: white;
@@ -17,11 +22,13 @@ header{
     background-color: rgb(224, 223, 223);
     height: 150vh;
     width: 80vw;
-    margin: auto;
-    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
+
+    
     border-radius: 10px;
 }
 select{
@@ -61,6 +68,8 @@ menu{
     background-color:rgb(238, 241, 243);
     height: 140vh;
     width: 70vw;
+    
+    
     
 }
 .name{
