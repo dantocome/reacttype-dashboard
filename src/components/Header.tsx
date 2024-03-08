@@ -49,6 +49,10 @@ const Header = () => {
             </div>
             <div className="mdlogo">
               <img className='md' src={logmd} alt="" />
+              <div className="ui">
+                <h6>Md Shimul Hoss</h6>
+                <p className='design'>UI/UX Designer</p>
+              </div>
             </div>
             
           </div>
