@@ -126,9 +126,12 @@ h6{
     
 }
 .mdprofile{
-    background-color: whitesmoke;
+    background-color:rgb(251, 251, 251);
     width: 200px;
     height: 230px;
+    padding: 30px;
+    margin-top: -350px;
+    
 }
 .hoss{
     font-weight: 800;
@@ -141,11 +144,29 @@ h6{
 }
 .innermd{
     text-align: center;
+    
 }
+
 .sidebar{
     background-color: white;
     width: 250px;
     height: 132vh;
     margin-top: 1.5px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
 }
+ ul li{
+   text-decoration: none;
+   list-style: none;
+}
+ li a{
+    display: flex;
+}
+ 
 

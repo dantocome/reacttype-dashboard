@@ -8,14 +8,15 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
 import logmd from "./images/logmd.jpg"
 import shimul from "./images/shimul.jpg"
-
-
-
-
-
-
-
-
+import { IoMdHome } from "react-icons/io";
+import { GiFilmProjector } from "react-icons/gi";
+import { FaTasks } from "react-icons/fa";
+import { MdGroups } from "react-icons/md";
+import { FaFileInvoiceDollar } from "react-icons/fa";
+import { SlCalender } from "react-icons/sl";
+import { MdAccessAlarm } from "react-icons/md";
+import { BiMessageRoundedDots } from "react-icons/bi";
+import { RiSettings3Line } from "react-icons/ri";
 
 
 const Header = () => {
@@ -36,7 +37,7 @@ const Header = () => {
             <span>< CiSearch size={20} fontWeight={500} color='darkgrey'/></span>
               
               <select >
-                <option value="default" >Search from Message</option>
+                <option value="default" >Search from Messages</option>
               </select>
              
             </div>
@@ -60,7 +61,7 @@ const Header = () => {
           </div>
         </header>
         <div className="Hero-container">
-        <nav className='sidebar'>
+        <div className='sidebar'>
           <div className="mdprofile">
             <div className="innermd">
             <img className='shimul' src={shimul}  alt="" />
@@ -68,19 +69,20 @@ const Header = () => {
             <p className='email'>mdshinuluiux11@gmail.com</p>
             </div>
           </div>
-          <ul>
-           <li><a href="">Home</a></li>
-           <li><a href="">Project</a></li>
-           <li><a href="">Taks</a></li>
-           <li><a href="">Members</a></li>
-           <li><a href="">Invoice</a></li>
-           <li><a href="">Calender</a></li>
-           <li><a href="">Timesheet</a></li>
-           <li><a href="">Messages</a></li>
-           <li><a href="">Settings</a></li>
+          
+          <ul className='icons'>
+          <li><a href=""><span>< IoMdHome/></span>Home</a></li>
+           <li><a href=""><span><GiFilmProjector/></span>Project</a></li>
+           <li><a href=""><span>< FaTasks/></span>Tasks</a></li>
+           <li><a href=""><span>< MdGroups/></span>Members</a></li>
+           <li><a href=""><span><FaFileInvoiceDollar/></span>Invoice</a></li>
+           <li><a href=""><span><SlCalender/></span>Calender</a></li>
+           <li><a href=""><span>< MdAccessAlarm /></span>Timesheet</a></li>
+           <li><a href=""><span>< BiMessageRoundedDots/></span>Messages</a></li>
+           <li><a href=""><span><RiSettings3Line/></span>Settings</a></li>
           </ul>
-
-        </nav>
+         
+        </div>
       </div>
       </div>
       
