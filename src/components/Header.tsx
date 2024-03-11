@@ -83,15 +83,15 @@ const Header = () => {
           </div>
           
           <ul className='icons'>
-          <li><a href=""><span>< IoMdHome/></span>Home</a></li>
-           <li><a href=""><span><GiFilmProjector/></span>Project</a></li>
-           <li><a href=""><span>< FaTasks/></span>Tasks</a></li>
-           <li><a href=""><span>< MdGroups/></span>Members</a></li>
-           <li><a href=""><span><FaFileInvoiceDollar/></span>Invoice</a></li>
-           <li><a href=""><span><SlCalender/></span>Calender</a></li>
-           <li><a href=""><span>< MdAccessAlarm /></span>Timesheet</a></li>
-           <li><a href=""><span>< BiMessageRoundedDots/></span>Messages</a></li>
-           <li><a href=""><span><RiSettings3Line/></span>Settings</a></li>
+          <li><a href="">< IoMdHome/>Home</a></li>
+           <li><a href=""><GiFilmProjector/>Project</a></li>
+           <li><a href="">< FaTasks/>Tasks</a></li>
+           <li><a href="">< MdGroups/>Members</a></li>
+           <li><a href=""><FaFileInvoiceDollar/>Invoice</a></li>
+           <li><a href=""><SlCalender/>Calender</a></li>
+           <li><a href="">< MdAccessAlarm />Timesheet</a></li>
+           <li><a href="">< BiMessageRoundedDots/>Messages</a></li>
+           <li><a href=""><RiSettings3Line/>Settings</a></li>
           </ul>
          
         </div>
