@@ -17,6 +17,8 @@ import { SlCalender } from "react-icons/sl";
 import { MdAccessAlarm } from "react-icons/md";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { RiSettings3Line } from "react-icons/ri";
+import { BiSolidCoinStack } from "react-icons/bi";
+
 
 
 const Header = () => {
@@ -65,8 +67,11 @@ const Header = () => {
           <div className="mdprofile">
             <div className="innermd">
             <img className='shimul' src={shimul}  alt="" />
-            <h6 className='hoss'>Md Shinul Hossain</h6>
+            <p className='pro'>Md Shimul Hossain</p>
             <p className='email'>mdshinuluiux11@gmail.com</p>
+            <div className="coin">
+              <  BiSolidCoinStack  className='log' size={20} color='violet'/><p className='over'>My Overview</p>
+            </div>
             </div>
           </div>
           
