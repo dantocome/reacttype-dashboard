@@ -18,6 +18,8 @@ import { MdAccessAlarm } from "react-icons/md";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { RiSettings3Line } from "react-icons/ri";
 import { BiSolidCoinStack } from "react-icons/bi";
+import { IoPerson } from "react-icons/io5";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
 
 
 
@@ -72,6 +74,11 @@ const Header = () => {
             <div className="coin">
               <  BiSolidCoinStack  className='log' size={20} color='violet'/><p className='over'>My Overview</p>
             </div>
+            </div>
+            <div className="official">
+              <IoPerson  color='darkgrey'/>
+              < HiOutlineOfficeBuilding color='darkgrey'/>
+
             </div>
           </div>
           

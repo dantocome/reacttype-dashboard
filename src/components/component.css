@@ -131,6 +131,8 @@ h6{
     height: 210px;
     padding: 30px;
     margin-top: -400px;
+    border-radius: 10px;
+    border: 2px solid rgb(243, 242, 242);
     
 }
 .pro{
@@ -188,7 +190,14 @@ h6{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    margin-top: 7px;
 }
-
+.official{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 25px;
+    margin-top: 10px;
+}
  
 
