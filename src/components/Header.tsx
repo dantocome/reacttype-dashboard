@@ -83,7 +83,7 @@ const Header = () => {
           </div>
           
           <ul className='icons'>
-          <li><a href="">< IoMdHome/>Home</a></li>
+          <div className="hmcolor"><li ><a href=""><  IoMdHome className='hom'/> <span className='hms'>Home</span></a></li></div>
            <li><a href=""><GiFilmProjector/>Project</a></li>
            <li><a href="">< FaTasks/>Tasks</a></li>
            <li><a href="">< MdGroups/>Members</a></li>
@@ -94,6 +94,23 @@ const Header = () => {
            <li><a href=""><RiSettings3Line/>Settings</a></li>
           </ul>
          
+        </div>
+        <div className="sections">
+          <div className="board">
+          <h1>Dashboard</h1>
+          <div className="rating">
+            <div className="rating-1">
+              <div className="rank-one">
+              <p className='total'>Total Projects</p>
+              <h3>3</h3>
+              </div>
+              <div className="percent">
+              <h2>46%</h2>
+              </div>
+
+            </div>
+          </div>
+          </div>
         </div>
       </div>
       </div>
