@@ -98,6 +98,7 @@ const Header = () => {
         <div className="sections">
           <div className="board">
           <h1>Dashboard</h1>
+          <div className="rap">
           <div className="rating">
             <div className="rating-1">
               <div className="rank-one">
@@ -111,6 +112,52 @@ const Header = () => {
                 
               </div>
 
+            </div>
+          </div>
+          <div className="rating">
+            <div className="rating-1">
+              <div className="rank-one">
+              <p className='total'>Total Projects</p>
+              <h3>3</h3>
+              </div>
+              <div className="percent">
+              <div className="stroke">
+                <h2>46%</h2>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+          <div className="rating">
+            <div className="rating-1">
+              <div className="rank-one">
+              <p className='total'>Total Projects</p>
+              <h3>3</h3>
+              </div>
+              <div className="percent">
+              <div className="stroke">
+                <h2>46%</h2>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+          <div className="rating">
+            <div className="rating-1">
+              <div className="rank-one">
+              <p className='total'>Total Projects</p>
+              <h3>3</h3>
+              </div>
+              <div className="percent">
+              <div className="stroke">
+                <h2>46%</h2>
+                </div>
+                
+              </div>
+
+            </div>
             </div>
           </div>
           </div>

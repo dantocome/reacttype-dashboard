@@ -243,8 +243,8 @@ h3{
 }
 .rating-1{
     background: linear-gradient(to right, rgb(250, 96, 173), rgb(184, 28, 184));
-    width: 250px;
-    height: 100px;
+    width: 210px;
+    height: 90px;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -268,5 +268,7 @@ h2{
     
     
  }
- 
+ .rap{
+    display: flex;
+ }
 
