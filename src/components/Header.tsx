@@ -105,7 +105,10 @@ const Header = () => {
               <h3>3</h3>
               </div>
               <div className="percent">
-              <h2>46%</h2>
+              <div className="stroke">
+                <h2>46%</h2>
+                </div>
+                
               </div>
 
             </div>
