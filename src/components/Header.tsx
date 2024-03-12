@@ -115,14 +115,14 @@ const Header = () => {
             </div>
           </div>
           <div className="rating">
-            <div className="rating-1">
+            <div className="rating-2">
               <div className="rank-one">
-              <p className='total'>Total Projects</p>
-              <h3>3</h3>
+              <p className='total'>Total Tasks</p>
+              <h3>18</h3>
               </div>
               <div className="percent">
               <div className="stroke">
-                <h2>46%</h2>
+                <h2>74%</h2>
                 </div>
                 
               </div>
@@ -130,14 +130,14 @@ const Header = () => {
             </div>
           </div>
           <div className="rating">
-            <div className="rating-1">
+            <div className="rating-3">
               <div className="rank-one">
-              <p className='total'>Total Projects</p>
-              <h3>3</h3>
+              <p className='total'>Total Expenses</p>
+              <h3>5</h3>
               </div>
               <div className="percent">
               <div className="stroke">
-                <h2>46%</h2>
+                <h2>14%</h2>
                 </div>
                 
               </div>
@@ -145,14 +145,14 @@ const Header = () => {
             </div>
           </div>
           <div className="rating">
-            <div className="rating-1">
+            <div className="rating-4">
               <div className="rank-one">
-              <p className='total'>Total Projects</p>
-              <h3>3</h3>
+              <p className='total'>Total Users</p>
+              <h3>5</h3>
               </div>
               <div className="percent">
               <div className="stroke">
-                <h2>46%</h2>
+                <h2>14%</h2>
                 </div>
                 
               </div>

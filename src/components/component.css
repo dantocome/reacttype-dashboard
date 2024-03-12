@@ -67,7 +67,7 @@ menu{
 .dashboard{
     background-color:rgb(238, 241, 243);
     height: 140vh;
-    width: 90vw;
+    width: 89vw;
     
     
     
@@ -232,6 +232,8 @@ li a{
 }
 .Hero-container{
    display: flex;
+   gap: 30px;
+   
 }
 
 h2{
@@ -243,14 +245,49 @@ h3{
 }
 .rating-1{
     background: linear-gradient(to right, rgb(250, 96, 173), rgb(184, 28, 184));
-    width: 210px;
-    height: 90px;
+    width: 220px;
+    height: 100px;
     display: flex;
     gap: 50px;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     
+}
+.rating-2{
+    background: linear-gradient(to right, rgb(164, 94, 230), blueviolet);
+    width: 220px;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+    
+}
+.rating-3{
+    background: linear-gradient(to right, rgb(123, 190, 245), royalblue);
+    width: 220px;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+.rating-4{
+    background: linear-gradient(to right, rgb(111, 201, 163), rgb(103, 201, 204));
+    width: 220px;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+
 }
 .total{
     font-size: 12px;
@@ -270,5 +307,13 @@ h2{
  }
  .rap{
     display: flex;
- }
+    gap: 20px;
 
+ }
+ .sections{
+   
+   
+ }
+.board{
+    margin-top: 30px;
+}
