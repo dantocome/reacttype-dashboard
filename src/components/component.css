@@ -183,6 +183,9 @@ ul li span{
 
     
 }
+.dash{
+    font-size: 23px;
+}
 
 li a{
     margin: 25px;
@@ -252,6 +255,8 @@ h3{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    box-shadow: 1px 1px 6px  rgb(250, 96, 173);
+    
     
 }
 .rating-2{
@@ -263,6 +268,7 @@ h3{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    box-shadow: 1px 1px 6px  rgb(164, 94, 230);
     
     
 }
@@ -275,6 +281,7 @@ h3{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    box-shadow: 1px 1px 6px  rgb(123, 190, 245);
 
 }
 .rating-4{
@@ -286,6 +293,7 @@ h3{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    box-shadow: 1px 1px 6px  rgb(111, 201, 163);
     
 
 }
@@ -308,6 +316,7 @@ h2{
  .rap{
     display: flex;
     gap: 20px;
+    margin-top: 15px;
 
  }
  .sections{

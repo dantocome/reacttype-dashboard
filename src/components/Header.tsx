@@ -97,7 +97,7 @@ const Header = () => {
         </div>
         <div className="sections">
           <div className="board">
-          <h1>Dashboard</h1>
+          <h1 className='dash'>Dashboard</h1>
           <div className="rap">
           <div className="rating">
             <div className="rating-1">
