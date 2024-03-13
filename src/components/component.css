@@ -237,6 +237,7 @@ li a{
    display: flex;
    gap: 30px;
    
+   
 }
 
 h2{
@@ -245,6 +246,7 @@ h2{
 h3{
     line-height: 2;
     color: white;
+    
 }
 .rating-1{
     background: linear-gradient(to right, rgb(250, 96, 173), rgb(184, 28, 184));
@@ -325,4 +327,8 @@ h2{
  }
 .board{
     margin-top: 30px;
+}
+.chart{
+    background: linear-gradient(to right, rgb(240, 63, 151), rgb(184, 28, 184));
+    
 }

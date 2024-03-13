@@ -20,17 +20,14 @@ import { RiSettings3Line } from "react-icons/ri";
 import { BiSolidCoinStack } from "react-icons/bi";
 import { IoPerson } from "react-icons/io5";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
-import { PieChart, Pie, Tooltip } from 'recharts'
+import Chart from 'react-apexcharts';
+
 
 
 
 const Header = () => {
-  const data = [
-    {name: "facebook", value: 200000},
-    {name: "Instagram", value: 30000},
-    {name: "twitter", value: 20000},
-    {name: "telegram", value: 30000},
-  ];
+ 
+
   return (
     <div className='app-body'>
       <div className="app-container">
@@ -168,21 +165,32 @@ const Header = () => {
           </div>
           </div>
           <div className="app">
-      <h1>social Media users</h1>
-      <PieChart width={400} height={400}>
-          <Pie
-            dataKey="value"
-            isAnimationActive={false}
-            data={data}
-            cx="50%"
-            cy="50%"
-            outerRadius={80}
-            fill="#8884d8"
-            label
-          />
-          <Tooltip />
-        </PieChart>
-    </div>
+             <div className="main">
+             <Chart
+              type='bar'
+              width={600}
+              height={400}
+              series={[
+                  
+              ]}
+              options={{
+                    colors: ["#ff0000"],
+                    chart:{
+                      stacked: true
+                    },
+                    xaxis:{
+                      categories:["sat", "sun", "Mon", "Tue", "Wed", "Thur", "Fri"]
+                    
+                    }
+              }}
+              
+              
+              >
+
+             </Chart>
+             </div>
+      
+        </div>
         </div>
         
       </div>
