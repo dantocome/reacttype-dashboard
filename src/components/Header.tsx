@@ -21,13 +21,22 @@ import { BiSolidCoinStack } from "react-icons/bi";
 import { IoPerson } from "react-icons/io5";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
 import Chart from 'react-apexcharts';
+import { BarChart, YAxis } from 'recharts';
 
 
+const data = [
+  {name: "2017", react: 32, angular: 37, vue: 60},
+  {name: "2018", react: 42, angular: 42, vue: 54},
+  {name: "2019", react: 51, angular: 41, vue: 54},
+  {name: "2020", react: 60, angular: 37, vue: 28},
+  {name: "2021", react: 51, angular: 31, vue: 27},
+  {name: "2022", react: 95, angular: 44, vue: 49},
+]
 
 
 const Header = () => {
  
-
+ 
   return (
     <div className='app-body'>
       <div className="app-container">
@@ -166,28 +175,8 @@ const Header = () => {
           </div>
           <div className="app">
              <div className="main">
-             <Chart
-              type='bar'
-              width={600}
-              height={400}
-              series={[
-                  
-              ]}
-              options={{
-                    colors: ["#ff0000"],
-                    chart:{
-                      stacked: true
-                    },
-                    xaxis:{
-                      categories:["sat", "sun", "Mon", "Tue", "Wed", "Thur", "Fri"]
-                    
-                    }
-              }}
-              
-              
-              >
-
-             </Chart>
+               <h2>Rechart Example</h2>
+                
              </div>
       
         </div>

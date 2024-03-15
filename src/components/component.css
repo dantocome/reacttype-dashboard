@@ -249,7 +249,7 @@ h3{
     
 }
 .rating-1{
-    background: linear-gradient(to right, rgb(250, 96, 173), rgb(184, 28, 184));
+    background: linear-gradient(to right, rgb(252, 53, 96), rgb(184, 28, 184));
     width: 220px;
     height: 100px;
     display: flex;
@@ -262,7 +262,7 @@ h3{
     
 }
 .rating-2{
-    background: linear-gradient(to right, rgb(164, 94, 230), blueviolet);
+    background: linear-gradient(to right, rgb(176, 70, 202), rgb(123, 35, 131));
     width: 220px;
     height: 100px;
     display: flex;
@@ -275,7 +275,7 @@ h3{
     
 }
 .rating-3{
-    background: linear-gradient(to right, rgb(123, 190, 245), royalblue);
+    background: linear-gradient(to right, rgb(123, 190, 245), rgb(28, 68, 129));
     width: 220px;
     height: 100px;
     display: flex;
