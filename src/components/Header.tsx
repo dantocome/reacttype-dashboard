@@ -19,9 +19,9 @@ import { BiMessageRoundedDots } from "react-icons/bi";
 import { RiSettings3Line } from "react-icons/ri";
 import { BiSolidCoinStack } from "react-icons/bi";
 import { IoPerson } from "react-icons/io5";
-import { HiOutlineOfficeBuilding } from "react-icons/hi";
-import Chart from 'react-apexcharts';
-import { BarChart, YAxis } from 'recharts';
+import { HiOutlineOfficeBuilding } from "react-icons/hi"
+import { LineChart } from 'recharts';
+import { Line } from 'react-chartjs-2';
 
 
 const data = [
@@ -176,7 +176,9 @@ const Header = () => {
           <div className="app">
              <div className="main">
                <h2>Rechart Example</h2>
-                
+                <LineChart width={600} height={300} data={data}>
+                  <Line type="mono"/>
+                </LineChart>
              </div>
       
         </div>
@@ -188,7 +190,7 @@ const Header = () => {
       </div>
       
     </div>
-  )
+  );
 }
 
 export default Header
